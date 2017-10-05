@@ -1,0 +1,154 @@
+body {
+	background-image: url("../img/fond.png");
+	background-repeat: repeat;
+}
+
+nav {
+	background-color: #25B3B4;
+	height: 180px;	
+	border-top : 3px #25B3B4 groove;
+	border-bottom :  3px #25B3B4 groove;
+}
+
+nav img {
+    padding-left: 520px;
+}
+
+nav ul {
+    padding-left: 480px;
+}
+
+nav ul li {
+    display: inline;
+	font-size: 27px;
+	font-family: Slabo;
+}
+
+nav ul li a {
+    padding: 15px;
+    color: 	white;
+    font-size: 20px;
+	text-decoration: none;
+}
+
+main{
+    max-width: 1100px;
+    margin: auto;
+}
+
+section {
+	padding: 1rem;
+}
+
+.welcom {
+	width: 650px;
+	margin: auto;
+    text-align: center;
+	color: gray;
+}
+
+.welcom h1 {
+	font-size: 2.5em;
+	font-family: 'Slabo 27px', serif;
+}
+
+.welcom  p {
+	color: gray;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.sectionLeft{
+	background-color: #B7DFDE;
+	width: 70%;
+	display: table-cell;
+}
+
+.sectionLeft h1{
+	text-align: center;
+	color:gray;
+	font-size: 3.5em;
+	font-family: 'Slabo 27px', serif;
+}
+
+.sectionLeft h1 span{
+	color:#25B3B4;
+	font-family: Slabo;
+}
+
+.sectionLeft h2 {
+	color:gray;
+	font-size: 1.8em;
+	font-family: 'Slabo 27px', serif;	
+}
+
+.sectionLeft article h2 i {
+	color: #25B3B4;
+}
+
+.sectionLeft article img {
+	border-radius: 50%;
+	float: left;
+    height: 98px;
+    padding: 0.5rem;
+}
+
+.sectionLeft p {
+	color: gray;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.sectionLeft  div {
+	float: right;
+    background-color: #25B3B4;    
+    text-align: center;
+	padding : 10px;
+}
+
+.sectionLeft  div a {
+	color: white;
+	text-decoration: none;
+}
+
+.clearfix{
+    clear : both;
+    display: block;
+}
+
+.sectionRight {
+	background-color: #25B3B4;
+	border:  3px #25B3B4 groove; 
+	max-width: 30%; 
+	left: 20px;
+	position: relative;
+	color: white;
+	display: table-cell;
+}
+
+.sectionRight img {
+	position: absolute;
+	top: -30px; 
+	right: -30px;
+}
+
+.sectionRight h2 {
+	font-size: 1.4em;
+	font-family: 'Slabo 27px', serif;
+}
+
+.sectionRight p {
+	font-family: Arial, sans-serif;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+footer small img {
+    padding-left: 210px;
+	width: 50px;
+    margin-top: 1rem;
+    margin-left: 23rem;
+}
+
+footer small p {    
+    text-align: center;
+	font-family: "Open Sans";
+}
